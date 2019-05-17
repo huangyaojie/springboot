@@ -1,0 +1,49 @@
+2019-05-18 01:47:37.826  INFO 5968 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 5968 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 01:47:37.849  INFO 5968 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 01:47:38.413  INFO 5968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-18 01:47:38.414  INFO 5968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-18 01:47:41.620  INFO 5968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 01:47:41.661  INFO 5968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 01:47:41.801  INFO 5968 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2019-05-18 01:47:42.575  INFO 5968 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34e806e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 01:47:44.109  INFO 5968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 01:47:44.201  INFO 5968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 01:47:44.201  INFO 5968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 01:47:44.228  INFO 5968 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MySoftware\oneKey\pycSafefile\x64;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\MySoftware\FromWeb\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;D:\MySoftware\FromWeb\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;D:\MySoftware\profiles\git\Git\cmd;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-05-18 01:47:44.950  INFO 5968 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 01:47:44.964  INFO 5968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 01:47:44.964  INFO 5968 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6531 ms
+2019-05-18 01:47:46.539  INFO 5968 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 01:47:46.751  INFO 5968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 01:47:48.195  INFO 5968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 01:47:48.322  INFO 5968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 01:47:48.326  INFO 5968 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 12.033 seconds (JVM running for 16.317)
+2019-05-18 01:48:14.855  INFO 5968 --- [http-nio-8011-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-18 01:48:14.855  INFO 5968 --- [http-nio-8011-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-18 01:48:14.873  INFO 5968 --- [http-nio-8011-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-05-18 01:48:15.132  INFO 5968 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 01:48:15.260  INFO 5968 --- [http-nio-8011-exec-1] .e.s.c.StudentController$HelloSpringBoot : search  condition is null 
+2019-05-18 01:48:15.268  INFO 5968 --- [http-nio-8011-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-18 01:48:18.422  INFO 5968 --- [http-nio-8011-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-18 01:48:18.592 DEBUG 5968 --- [http-nio-8011-exec-1] c.e.s.m.S.findStudentsByID_COUNT         : ==>  Preparing: SELECT count(*) FROM p_students WHERE id = ? 
+2019-05-18 01:48:18.638 DEBUG 5968 --- [http-nio-8011-exec-1] c.e.s.m.S.findStudentsByID_COUNT         : ==> Parameters: 1(Long)
+2019-05-18 01:48:34.564 DEBUG 5968 --- [http-nio-8011-exec-1] c.e.s.m.S.findStudentsByID_COUNT         : <==      Total: 1
+2019-05-18 01:48:34.567 DEBUG 5968 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : ==>  Preparing: select id,name,age from p_students where id = ? limit ?,? 
+2019-05-18 01:48:34.568 DEBUG 5968 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : ==> Parameters: 1(Long), 0(Integer), 10(Integer)
+2019-05-18 01:48:34.691 DEBUG 5968 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : <==      Total: 1
+2019-05-18 01:48:34.691  INFO 5968 --- [http-nio-8011-exec-1] c.e.s.s.serviceimpl.StudentServiceImpl   : get the student by id 黄
+2019-05-18 01:48:34.717  INFO 5968 --- [http-nio-8011-exec-1] .e.s.c.StudentController$HelloSpringBoot : name:黄
+2019-05-18 01:48:34.722  INFO 5968 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 01:48:36.070  INFO 5968 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 01:48:36.247  INFO 5968 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 01:48:36.249  INFO 5968 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 01:48:36.249  INFO 5968 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 01:48:36.396  INFO 5968 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 01:48:36.601  INFO 5968 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 01:48:36.602  INFO 5968 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 02:17:13.075  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 02:17:13.112  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 02:17:13.112  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 02:17:13.117  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 02:17:13.131  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 02:17:13.131  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
