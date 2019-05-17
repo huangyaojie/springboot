@@ -32,6 +32,11 @@ public class Student {
     public Student() {
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     public Student(Long id, String name, Integer age) {
         this.id = id;
         this.name = name;

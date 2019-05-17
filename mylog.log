@@ -47,3 +47,255 @@
 2019-05-18 02:17:13.117  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
 2019-05-18 02:17:13.131  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
 2019-05-18 02:17:13.131  INFO 5968 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 02:31:40.888  INFO 9308 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 9308 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 02:31:40.893  INFO 9308 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 02:31:41.077  INFO 9308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-18 02:31:41.077  INFO 9308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-18 02:31:42.468  INFO 9308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 02:31:42.471  INFO 9308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 02:31:42.582  INFO 9308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-05-18 02:31:42.966  INFO 9308 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab908fb1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 02:31:44.002  INFO 9308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 02:31:44.139  INFO 9308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 02:31:44.139  INFO 9308 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 02:31:44.157  INFO 9308 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MySoftware\oneKey\pycSafefile\x64;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\MySoftware\FromWeb\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;D:\MySoftware\FromWeb\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;D:\MySoftware\profiles\git\Git\cmd;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-05-18 02:31:44.639  INFO 9308 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 02:31:44.646  INFO 9308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 02:31:44.647  INFO 9308 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3569 ms
+2019-05-18 02:31:45.459  INFO 9308 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 02:31:45.577  INFO 9308 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 02:31:46.346  INFO 9308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 02:31:46.414  INFO 9308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 02:31:46.417  INFO 9308 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 6.499 seconds (JVM running for 8.531)
+2019-05-18 03:25:38.054  INFO 9308 --- [http-nio-8011-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-18 03:25:38.054  INFO 9308 --- [http-nio-8011-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-18 03:25:38.068  INFO 9308 --- [http-nio-8011-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-05-18 03:25:38.084  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:25:38.099  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.contrpller.StudentController       : search  condition is null 
+2019-05-18 03:25:38.106  INFO 9308 --- [http-nio-8011-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-18 03:25:38.236  INFO 9308 --- [http-nio-8011-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-18 03:25:38.293 DEBUG 9308 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : ==>  Preparing: select id,name,age from p_students where id = ? 
+2019-05-18 03:25:38.318 DEBUG 9308 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : ==> Parameters: 1(Long)
+2019-05-18 03:25:38.357 DEBUG 9308 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : <==      Total: 1
+2019-05-18 03:25:38.358  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.s.serviceimpl.StudentServiceImpl   : get the student by id 黄
+2019-05-18 03:25:38.361  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.contrpller.StudentController       : student:com.example.springboot.pojo.Student@7dd0773a
+2019-05-18 03:25:38.391  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:25:38.391  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 03:26:20.821  INFO 9308 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:26:20.822  INFO 9308 --- [http-nio-8011-exec-6] c.e.s.contrpller.StudentController       : search  condition is null 
+2019-05-18 03:26:20.825 DEBUG 9308 --- [http-nio-8011-exec-6] c.e.s.m.StudentMapper.findStudentsByID   : ==>  Preparing: select id,name,age from p_students where id = ? 
+2019-05-18 03:26:20.826 DEBUG 9308 --- [http-nio-8011-exec-6] c.e.s.m.StudentMapper.findStudentsByID   : ==> Parameters: 1(Long)
+2019-05-18 03:26:20.828 DEBUG 9308 --- [http-nio-8011-exec-6] c.e.s.m.StudentMapper.findStudentsByID   : <==      Total: 1
+2019-05-18 03:26:20.828  INFO 9308 --- [http-nio-8011-exec-6] c.e.s.s.serviceimpl.StudentServiceImpl   : get the student by id 黄
+2019-05-18 03:26:20.830  INFO 9308 --- [http-nio-8011-exec-6] c.e.s.contrpller.StudentController       : student:com.example.springboot.pojo.Student@51300c79
+2019-05-18 03:26:20.833  INFO 9308 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:26:20.833  INFO 9308 --- [http-nio-8011-exec-6] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 03:26:21.545  INFO 9308 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:26:21.546  INFO 9308 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-18 03:26:21.556  INFO 9308 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-18 03:26:22.147  INFO 9308 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 9308 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 03:26:22.148  INFO 9308 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 03:26:22.604  INFO 9308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 03:26:22.604  INFO 9308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 03:26:22.614  INFO 9308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-05-18 03:26:22.727  INFO 9308 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab908fb1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 03:26:23.083  INFO 9308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 03:26:23.085  INFO 9308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 03:26:23.085  INFO 9308 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 03:26:23.259  INFO 9308 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 03:26:23.263  INFO 9308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 03:26:23.263  INFO 9308 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1111 ms
+2019-05-18 03:26:24.278  INFO 9308 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:26:24.471  INFO 9308 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 03:26:25.044  INFO 9308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 03:26:25.094  INFO 9308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 03:26:25.102  INFO 9308 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 3.008 seconds (JVM running for 3287.217)
+2019-05-18 03:26:25.107  INFO 9308 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-18 03:26:27.326  INFO 9308 --- [http-nio-8011-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-18 03:26:27.326  INFO 9308 --- [http-nio-8011-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-18 03:26:27.345  INFO 9308 --- [http-nio-8011-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2019-05-18 03:26:27.346  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:26:27.349  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.contrpller.StudentController       : search  condition is null 
+2019-05-18 03:26:27.350  INFO 9308 --- [http-nio-8011-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-05-18 03:26:27.368  INFO 9308 --- [http-nio-8011-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-05-18 03:26:27.397 DEBUG 9308 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : ==>  Preparing: select id,name,age from p_students where id = ? 
+2019-05-18 03:26:27.398 DEBUG 9308 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : ==> Parameters: 1(Long)
+2019-05-18 03:26:27.400 DEBUG 9308 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : <==      Total: 1
+2019-05-18 03:26:27.401  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.s.serviceimpl.StudentServiceImpl   : get the student by id 黄
+2019-05-18 03:26:27.403  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.contrpller.StudentController       : student:com.example.springboot.pojo.Student@3711d355
+2019-05-18 03:26:27.406  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:26:27.406  INFO 9308 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 03:26:34.194  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 10868 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 03:26:34.198  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 03:26:34.293  INFO 10868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-18 03:26:34.293  INFO 10868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-18 03:26:35.697  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 03:26:35.701  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 03:26:35.762  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-05-18 03:26:36.410  INFO 10868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$def4f089] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 03:26:37.218  INFO 10868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 03:26:37.250  INFO 10868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 03:26:37.251  INFO 10868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 03:26:37.261  INFO 10868 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MySoftware\oneKey\pycSafefile\x64;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\MySoftware\FromWeb\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;D:\MySoftware\FromWeb\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;D:\MySoftware\profiles\git\Git\cmd;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-05-18 03:26:37.860  INFO 10868 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 03:26:37.868  INFO 10868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 03:26:37.869  INFO 10868 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3576 ms
+2019-05-18 03:26:38.953  INFO 10868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:26:39.113  INFO 10868 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 03:26:39.787  INFO 10868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 03:26:39.870  INFO 10868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 03:26:39.873  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 6.434 seconds (JVM running for 8.345)
+2019-05-18 03:35:01.949  INFO 10868 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:35:02.944  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 10868 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 03:35:02.944  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 03:35:03.555  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 03:35:03.556  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 03:35:03.563  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-05-18 03:35:03.666  INFO 10868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$def4f089] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 03:35:04.319  INFO 10868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 03:35:04.321  INFO 10868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 03:35:04.322  INFO 10868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 03:35:04.612  INFO 10868 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 03:35:04.617  INFO 10868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 03:35:04.618  INFO 10868 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1669 ms
+2019-05-18 03:35:05.209  INFO 10868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:35:05.422  INFO 10868 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 03:35:05.881  INFO 10868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 03:35:05.917  INFO 10868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 03:35:05.936  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 3.045 seconds (JVM running for 514.408)
+2019-05-18 03:35:05.939  INFO 10868 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-18 03:35:22.375  INFO 10868 --- [http-nio-8011-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-18 03:35:22.376  INFO 10868 --- [http-nio-8011-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-18 03:35:22.392  INFO 10868 --- [http-nio-8011-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-05-18 03:35:22.419  INFO 10868 --- [http-nio-8011-exec-10] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:35:22.421  INFO 10868 --- [http-nio-8011-exec-10] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:35:22.421  INFO 10868 --- [http-nio-8011-exec-10] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 03:35:22.435  INFO 10868 --- [http-nio-8011-exec-10] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:35:22.452  INFO 10868 --- [http-nio-8011-exec-10] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:35:22.518  INFO 10868 --- [http-nio-8011-exec-10] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 03:35:25.775  INFO 10868 --- [Thread-26] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:35:26.245  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 10868 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 03:35:26.245  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 03:35:26.606  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 03:35:26.607  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 03:35:26.619  INFO 10868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-05-18 03:35:26.727  INFO 10868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$def4f089] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 03:35:27.199  INFO 10868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 03:35:27.202  INFO 10868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 03:35:27.202  INFO 10868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 03:35:27.417  INFO 10868 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 03:35:27.420  INFO 10868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 03:35:27.421  INFO 10868 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1172 ms
+2019-05-18 03:35:27.959  INFO 10868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:35:28.026  INFO 10868 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 03:35:28.352  INFO 10868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 03:35:28.380  INFO 10868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 03:35:28.382  INFO 10868 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 2.179 seconds (JVM running for 536.854)
+2019-05-18 03:35:28.386  INFO 10868 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-18 03:36:35.454  INFO 4044 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 4044 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 03:36:35.457  INFO 4044 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 03:36:35.528  INFO 4044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-18 03:36:35.528  INFO 4044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-18 03:36:36.658  INFO 4044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 03:36:36.662  INFO 4044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 03:36:36.707  INFO 4044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-05-18 03:36:37.240  INFO 4044 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce8426f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 03:36:38.305  INFO 4044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 03:36:38.335  INFO 4044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 03:36:38.336  INFO 4044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 03:36:38.346  INFO 4044 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MySoftware\oneKey\pycSafefile\x64;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\MySoftware\FromWeb\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;D:\MySoftware\FromWeb\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;D:\MySoftware\profiles\git\Git\cmd;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-05-18 03:36:38.855  INFO 4044 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 03:36:38.862  INFO 4044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 03:36:38.863  INFO 4044 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3335 ms
+2019-05-18 03:36:39.502  INFO 4044 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:36:39.616  INFO 4044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 03:36:40.194  INFO 4044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 03:36:40.259  INFO 4044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 03:36:40.261  INFO 4044 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 5.212 seconds (JVM running for 6.451)
+2019-05-18 03:36:49.188  INFO 4044 --- [http-nio-8011-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-18 03:36:49.189  INFO 4044 --- [http-nio-8011-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-18 03:36:49.201  INFO 4044 --- [http-nio-8011-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-05-18 03:36:49.215  INFO 4044 --- [http-nio-8011-exec-2] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:36:49.230  INFO 4044 --- [http-nio-8011-exec-2] c.e.s.contrpller.StudentController       : search  condition is null 
+2019-05-18 03:36:49.236  INFO 4044 --- [http-nio-8011-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-18 03:36:49.339  INFO 4044 --- [http-nio-8011-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-18 03:36:49.384 DEBUG 4044 --- [http-nio-8011-exec-2] c.e.s.m.StudentMapper.findStudentsByID   : ==>  Preparing: select id,name,age from p_students where id = ? 
+2019-05-18 03:36:49.409 DEBUG 4044 --- [http-nio-8011-exec-2] c.e.s.m.StudentMapper.findStudentsByID   : ==> Parameters: 1(Long)
+2019-05-18 03:36:49.430 DEBUG 4044 --- [http-nio-8011-exec-2] c.e.s.m.StudentMapper.findStudentsByID   : <==      Total: 1
+2019-05-18 03:36:49.430  INFO 4044 --- [http-nio-8011-exec-2] c.e.s.s.serviceimpl.StudentServiceImpl   : get the student by id 黄
+2019-05-18 03:36:49.433  INFO 4044 --- [http-nio-8011-exec-2] c.e.s.contrpller.StudentController       : student:com.example.springboot.pojo.Student@5c5742d3
+2019-05-18 03:36:49.463  INFO 4044 --- [http-nio-8011-exec-2] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:36:49.463  INFO 4044 --- [http-nio-8011-exec-2] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 03:36:50.803  INFO 4044 --- [http-nio-8011-exec-3] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:36:50.804  INFO 4044 --- [http-nio-8011-exec-3] c.e.s.contrpller.StudentController       : search  condition is null 
+2019-05-18 03:36:50.807 DEBUG 4044 --- [http-nio-8011-exec-3] c.e.s.m.StudentMapper.findStudentsByID   : ==>  Preparing: select id,name,age from p_students where id = ? 
+2019-05-18 03:36:50.807 DEBUG 4044 --- [http-nio-8011-exec-3] c.e.s.m.StudentMapper.findStudentsByID   : ==> Parameters: 1(Long)
+2019-05-18 03:36:50.808 DEBUG 4044 --- [http-nio-8011-exec-3] c.e.s.m.StudentMapper.findStudentsByID   : <==      Total: 1
+2019-05-18 03:36:50.809  INFO 4044 --- [http-nio-8011-exec-3] c.e.s.s.serviceimpl.StudentServiceImpl   : get the student by id 黄
+2019-05-18 03:36:50.810  INFO 4044 --- [http-nio-8011-exec-3] c.e.s.contrpller.StudentController       : student:com.example.springboot.pojo.Student@4e7c7938
+2019-05-18 03:36:50.813  INFO 4044 --- [http-nio-8011-exec-3] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:36:50.814  INFO 4044 --- [http-nio-8011-exec-3] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 03:36:53.798  INFO 4044 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:36:53.798  INFO 4044 --- [http-nio-8011-exec-4] c.e.s.contrpller.StudentController       : search  condition is null 
+2019-05-18 03:36:53.801 DEBUG 4044 --- [http-nio-8011-exec-4] c.e.s.m.StudentMapper.findStudentsByID   : ==>  Preparing: select id,name,age from p_students where id = ? 
+2019-05-18 03:36:53.802 DEBUG 4044 --- [http-nio-8011-exec-4] c.e.s.m.StudentMapper.findStudentsByID   : ==> Parameters: 1(Long)
+2019-05-18 03:36:53.803 DEBUG 4044 --- [http-nio-8011-exec-4] c.e.s.m.StudentMapper.findStudentsByID   : <==      Total: 1
+2019-05-18 03:36:53.803  INFO 4044 --- [http-nio-8011-exec-4] c.e.s.s.serviceimpl.StudentServiceImpl   : get the student by id 黄
+2019-05-18 03:36:53.804  INFO 4044 --- [http-nio-8011-exec-4] c.e.s.contrpller.StudentController       : student:com.example.springboot.pojo.Student@581415bf
+2019-05-18 03:36:53.806  INFO 4044 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:36:53.807  INFO 4044 --- [http-nio-8011-exec-4] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
+2019-05-18 03:37:40.355  INFO 4044 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:37:40.357  INFO 4044 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-18 03:37:40.372  INFO 4044 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-18 03:37:41.008  INFO 4044 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 4044 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 03:37:41.008  INFO 4044 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 03:37:41.368  INFO 4044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 03:37:41.368  INFO 4044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 03:37:41.376  INFO 4044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-05-18 03:37:41.492  INFO 4044 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce8426f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 03:37:41.698  INFO 4044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 03:37:41.699  INFO 4044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 03:37:41.699  INFO 4044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 03:37:41.846  INFO 4044 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 03:37:41.850  INFO 4044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 03:37:41.850  INFO 4044 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 838 ms
+2019-05-18 03:37:42.299  INFO 4044 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:37:42.436  INFO 4044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 03:37:43.044  INFO 4044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 03:37:43.120  INFO 4044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 03:37:43.141  INFO 4044 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 2.179 seconds (JVM running for 69.33)
+2019-05-18 03:37:43.146  INFO 4044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-18 03:47:20.126  INFO 10928 --- [restartedMain] c.e.springboot.SpringbootApplication     : Starting SpringbootApplication on PC-20180803QKXC with PID 10928 (E:\Project\springboot\target\classes started by Administrator in E:\Project\springboot)
+2019-05-18 03:47:20.129  INFO 10928 --- [restartedMain] c.e.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 03:47:20.198  INFO 10928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-18 03:47:20.199  INFO 10928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-18 03:47:21.338  INFO 10928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 03:47:21.342  INFO 10928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 03:47:21.380  INFO 10928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-05-18 03:47:21.958  INFO 10928 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0ec4c57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 03:47:23.139  INFO 10928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8011 (http)
+2019-05-18 03:47:23.177  INFO 10928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 03:47:23.178  INFO 10928 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-18 03:47:23.189  INFO 10928 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\MySoftware\oneKey\pycSafefile\x64;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\MySoftware\FromWeb\mysql-8.0.12-winx64\mysql-8.0.12-winx64\bin;D:\MySoftware\FromWeb\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;D:\MySoftware\profiles\git\Git\cmd;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-05-18 03:47:24.002  INFO 10928 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-18 03:47:24.008  INFO 10928 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 03:47:24.008  INFO 10928 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3809 ms
+2019-05-18 03:47:24.708  INFO 10928 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 03:47:24.869  INFO 10928 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-18 03:47:25.620  INFO 10928 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 03:47:25.704  INFO 10928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8011 (http) with context path ''
+2019-05-18 03:47:25.706  INFO 10928 --- [restartedMain] c.e.springboot.SpringbootApplication     : Started SpringbootApplication in 6.069 seconds (JVM running for 7.853)
+2019-05-18 03:47:33.222  INFO 10928 --- [http-nio-8011-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-18 03:47:33.222  INFO 10928 --- [http-nio-8011-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-18 03:47:33.235  INFO 10928 --- [http-nio-8011-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-05-18 03:47:33.249  INFO 10928 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : ---------------------开始进入请求地址拦截----------------------------
+2019-05-18 03:47:33.263  INFO 10928 --- [http-nio-8011-exec-1] c.e.s.contrpller.StudentController       : search  condition is null 
+2019-05-18 03:47:33.272  INFO 10928 --- [http-nio-8011-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-18 03:47:33.417  INFO 10928 --- [http-nio-8011-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-18 03:47:33.467 DEBUG 10928 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : ==>  Preparing: select id,name,age from p_students where id = ? 
+2019-05-18 03:47:33.489 DEBUG 10928 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : ==> Parameters: 1(Long)
+2019-05-18 03:47:33.513 DEBUG 10928 --- [http-nio-8011-exec-1] c.e.s.m.StudentMapper.findStudentsByID   : <==      Total: 1
+2019-05-18 03:47:33.514  INFO 10928 --- [http-nio-8011-exec-1] c.e.s.s.serviceimpl.StudentServiceImpl   : get the student by id 黄
+2019-05-18 03:47:33.516  INFO 10928 --- [http-nio-8011-exec-1] c.e.s.contrpller.StudentController       : student:com.example.springboot.pojo.Student@32a5664c
+2019-05-18 03:47:33.722  INFO 10928 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-05-18 03:47:33.722  INFO 10928 --- [http-nio-8011-exec-1] c.e.s.interceptor.CommonDataInterceptor  : ---------------视图渲染之后的操作-------------------------0
