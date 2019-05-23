@@ -6,10 +6,7 @@ import com.example.springboot.service.StudentSertvice;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -42,7 +39,12 @@ private StudentSertvice studentSertvice;
             return JSON.toJSONString(s);
         }
 
-
+ /*   @RequestMapping(path = {"/{id}"}, method = RequestMethod.GET)
+    public String getStudents(@PathVariable Long  id) {
+        Student s = studentSertvice.findStudentsByID(id);
+        logger.info("student:"+s.toString());
+        return JSON.toJSONString(s);
+    }*/
 
 
         /**
